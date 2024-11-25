@@ -26,7 +26,8 @@
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="30"/>
-                    <RowDefinition Height="580"/>
+                    <RowDefinition Height="388.707"/>
+                    <RowDefinition Height="191.293"/>
                     <RowDefinition Height="90"/>
                 </Grid.RowDefinitions>
 
@@ -113,7 +114,7 @@
                     </Button>
                 </Grid>
 
-                <Grid Grid.Row="1">
+                <Grid Grid.Row="1" Grid.RowSpan="2">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="50"/>
                         <ColumnDefinition Width="700"/>
@@ -154,20 +155,20 @@
                                Grid.Row="2"
                                Background="#ed742f"/>
 
-                    <TextBlock Text="Paquete"
-                               Grid.Row="3"
+                    <TextBlock Text="Sucursal XXXXX"
+                               Grid.Row="2"
                                Grid.Column="1"
                                Foreground="White"
                                FontSize="25"
                                FontFamily="montserrat"
-                               VerticalAlignment="Center"
-                               HorizontalAlignment="Center"/>
+                               VerticalAlignment="Bottom"
+                               HorizontalAlignment="Center" Margin="0,0,0,25" Grid.RowSpan="3"/>
 
                     <Separator Grid.Column="1"
                                Grid.Row="4"
                                Background="#ed742f"/>
 
-                    <TextBlock Text="Sucursal XXXXXXXXX"
+                    <TextBlock Text="Mensualidad"
                                Grid.Row="5"
                                Grid.Column="1"
                                Foreground="White"
@@ -175,10 +176,6 @@
                                FontFamily="montserrat"
                                VerticalAlignment="Center"
                                HorizontalAlignment="Center"/>
-
-                    <Separator Grid.Column="1"
-                               Grid.Row="6"
-                               Background="#ed742f"/>
 
                     <TextBlock Text="Mensualidad vigente hasta 15/09/24"
                                Grid.Row="7"
@@ -189,9 +186,9 @@
                                VerticalAlignment="Center"
                                HorizontalAlignment="Center"/>
 
-                    <Button x:Name="btnGuardarDatos"
+                    <Button x:Name="btnPagarPaquete"
                         BorderThickness="0"
-                        Content="Agregar datos"
+                        Content="Pagar ahora"
                         Foreground="White"
                         FontSize="20"
                         FontFamily="Monstserrat"
@@ -227,7 +224,7 @@
                     </Button>
                 </Grid>
 
-                <Grid Background="#351E99" Grid.Row="2">
+                <Grid Background="#351E99" Grid.Row="3">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="30"/>
                         <RowDefinition Height="30"/>

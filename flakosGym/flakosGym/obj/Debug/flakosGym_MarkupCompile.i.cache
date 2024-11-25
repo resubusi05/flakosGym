@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-V:\Uni\uaz\5to Semestre\NET\falkosGym2\flakosGym\flakosGym\obj\Debug\
+V:\falkosGym2\flakosGym\flakosGym\obj\Debug\
 flakosGym
 none
 false
 DEBUG;TRACE
-V:\Uni\uaz\5to Semestre\NET\falkosGym2\flakosGym\flakosGym\App.xaml
+V:\falkosGym2\flakosGym\flakosGym\App.xaml
 91181560573
 1553061478
 14-741508441
 14-2011955616
 MainWindow.xaml;Views\DatosInicialesView.xaml;Views\Login.xaml;Views\Objetivo.xaml;Views\MainPage.xaml;Views\Paquete.xaml;Views\RegisterView.xaml;Views\Perfil.xaml;Views\SeleccionarPaquete.xaml;
 
-True
+False
 

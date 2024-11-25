@@ -138,12 +138,27 @@
                                VerticalAlignment="Center"
                                HorizontalAlignment="Center"/>
                     
+                    <TextBlock Text="Regresar"
+                               Grid.Row="1"
+                               Grid.Column="0"
+                               FontSize="20"
+                               Foreground="White"
+                               FontFamily="Montserrat"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center"/>
+                    <Image Grid.Row="1"
+                           Grid.Column="0"
+                           Source="/Images/flecha.png"
+                           Width="80"
+                           Height="80"
+                           Opacity="1"/>
+                    
                     <TextBlock Text="Perder peso"
                         Grid.Row="1"
                         Grid.Column="1"
                         Foreground="White"
                         FontSize="20"
-                        FontFamily="montserrat"
+                        FontFamily="Montserrat"
                         VerticalAlignment="Center"
                         HorizontalAlignment="Center"/>
                     <Image Grid.Row="2"

@@ -164,7 +164,7 @@
                                Grid.Row="4"
                                Background="#ed742f"/>
                     
-                    <TextBlock Text="Notificaciones"
+                    <TextBlock Text="Objetivo"
                                Grid.Row="5"
                                Grid.Column="1"
                                Foreground="White"
@@ -176,16 +176,7 @@
                     <Separator Grid.Column="1"
                                Grid.Row="6"
                                Background="#ed742f"/>
-                    
-                    <TextBlock Text="Paquete"
-                               Grid.Row="7"
-                               Grid.Column="1"
-                               Foreground="White"
-                               FontSize="25"
-                               FontFamily="montserrat"
-                               VerticalAlignment="Center"
-                               HorizontalAlignment="Center"/>
-                    
+
                 </Grid>
                 
                 <Grid Background="#351E99" Grid.Row="3">

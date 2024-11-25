@@ -24,13 +24,17 @@
             </Border.Background>
 
             <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="217*"/>
+                    <ColumnDefinition Width="573*"/>
+                </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="30"/>
                     <RowDefinition Height="570"/>
                     <RowDefinition Height="90"/>
                 </Grid.RowDefinitions>
 
-                <Grid Grid.Row="0">
+                <Grid Grid.Row="0" Grid.ColumnSpan="2">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
                         <ColumnDefinition Width="25"/>
@@ -113,7 +117,7 @@
                     </Button>
                 </Grid>
 
-                <Grid Grid.Row="1">
+                <Grid Grid.Row="1" Grid.ColumnSpan="2">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="50"/>
                         <ColumnDefinition Width="700"/>
@@ -171,7 +175,9 @@
                             <RowDefinition Height="30"/>
                             <RowDefinition Height="15"/>
                             <RowDefinition Height="30"/>
-                            <RowDefinition Height="100"/>
+                            <RowDefinition Height="15"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="60"/>
                         </Grid.RowDefinitions>
 
                         <Grid.ColumnDefinitions>
@@ -197,18 +203,40 @@
                            VerticalAlignment="Center"
                            HorizontalAlignment="Left"/>
 
-                        <CheckBox Grid.Row="1"
+                        <CheckBox Name="anualidad"
+                                  Grid.Row="1"
                                   Grid.Column="1"
                                   VerticalAlignment="Center"
-                                  HorizontalAlignment="Right">
+                                  HorizontalAlignment="Left" 
+                                  RenderTransformOrigin="0.5,0.5" Margin="232,0,0,0">
+                            <CheckBox.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </CheckBox.RenderTransform>
 
-                            <CheckBox.LayoutTransform>
-                                <ScaleTransform ScaleX="2" ScaleY="2" />
-                            </CheckBox.LayoutTransform>
+                            <CheckBox.Template>
+                                <ControlTemplate TargetType="CheckBox">
+                                    <Border Width="20" Height="20"
+                                        CornerRadius="10"
+                                        Background="{TemplateBinding Background}"
+                                        BorderThickness="3">
 
-                         <CheckBox/>
+                                        <Border.BorderBrush>
+                                            <LinearGradientBrush StartPoint="1,1" EndPoint="0,0">
+                                                <GradientStop Color="#462AD8" Offset="0" />
+                                                <GradientStop Color="#ed742f" Offset="1" />
+                                            </LinearGradientBrush>
+                                        </Border.BorderBrush>
+                                    </Border>
+                                </ControlTemplate>
+                            </CheckBox.Template>
+                        </CheckBox>
 
-                            <TextBlock Text="Mensualidad"
+                        <TextBlock Text="Mensualidad"
                            Grid.Row="3"
                            Grid.Column="0"
                            Foreground="White"
@@ -225,6 +253,40 @@
                            FontFamily="montserrat"
                            VerticalAlignment="Center"
                            HorizontalAlignment="Left"/>
+
+                        <CheckBox Name="mensalualidad"
+                              Grid.Row="3"
+                              Grid.Column="1"
+                              VerticalAlignment="Center"
+                              HorizontalAlignment="Left" 
+                              RenderTransformOrigin="0.5,0.5" Margin="232,0,0,0">
+
+                            <CheckBox.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </CheckBox.RenderTransform>
+
+                            <CheckBox.Template>
+                                <ControlTemplate TargetType="CheckBox">
+                                    <Border Width="20" Height="20"
+                                        CornerRadius="10"
+                                        Background="{TemplateBinding Background}"
+                                        BorderThickness="3">
+
+                                        <Border.BorderBrush>
+                                            <LinearGradientBrush StartPoint="1,1" EndPoint="0,0">
+                                                <GradientStop Color="#462AD8" Offset="0" />
+                                                <GradientStop Color="#ed742f" Offset="1" />
+                                            </LinearGradientBrush>
+                                        </Border.BorderBrush>
+                                    </Border>
+                                </ControlTemplate>
+                            </CheckBox.Template>
+                        </CheckBox>
 
                         <TextBlock Text="Semana"
                             Grid.Row="5"
@@ -244,6 +306,40 @@
                            VerticalAlignment="Center"
                            HorizontalAlignment="Left"/>
 
+                        <CheckBox Name="Semana"
+                            Grid.Row="5"
+                            Grid.Column="1"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Left" 
+                            RenderTransformOrigin="0.5,0.5" Margin="232,0,0,0">
+
+                            <CheckBox.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </CheckBox.RenderTransform>
+
+                            <CheckBox.Template>
+                                <ControlTemplate TargetType="CheckBox">
+                                    <Border Width="20" Height="20"
+                                        CornerRadius="10"
+                                        Background="{TemplateBinding Background}"
+                                        BorderThickness="3">
+
+                                        <Border.BorderBrush>
+                                            <LinearGradientBrush StartPoint="1,1" EndPoint="0,0">
+                                                <GradientStop Color="#462AD8" Offset="0" />
+                                                <GradientStop Color="#ed742f" Offset="1" />
+                                            </LinearGradientBrush>
+                                        </Border.BorderBrush>
+                                    </Border>
+                                </ControlTemplate>
+                            </CheckBox.Template>
+                        </CheckBox>
+
                         <TextBlock Text="Dos semanas"
                                     Grid.Row="7"
                                     Grid.Column="0"
@@ -262,15 +358,101 @@
                            VerticalAlignment="Center"
                            HorizontalAlignment="Left"/>
 
+                        <CheckBox Name="dosSemanas"
+                              Grid.Row="7"
+                              Grid.Column="1"
+                              VerticalAlignment="Center"
+                              HorizontalAlignment="Left" 
+                              RenderTransformOrigin="0.5,0.5" Margin="232,0,0,0">
+
+                            <CheckBox.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </CheckBox.RenderTransform>
+
+                            <CheckBox.Template>
+                                <ControlTemplate TargetType="CheckBox">
+                                    <Border Width="20" Height="20"
+                                        CornerRadius="10"
+                                        Background="{TemplateBinding Background}"
+                                        BorderThickness="3">
+
+                                        <Border.BorderBrush>
+                                            <LinearGradientBrush StartPoint="1,1" EndPoint="0,0">
+                                                <GradientStop Color="#462AD8" Offset="0" />
+                                                <GradientStop Color="#ed742f" Offset="1" />
+                                            </LinearGradientBrush>
+                                        </Border.BorderBrush>
+                                    </Border>
+                                </ControlTemplate>
+                            </CheckBox.Template>
+                        </CheckBox>
+
+                        <TextBlock Text="Visita"
+                            Grid.Row="9"
+                            Grid.Column="0"
+                            Foreground="White"
+                            FontSize="25"
+                            FontFamily="montserrat"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Center"/>
+
+                        <TextBlock Text="Precio: XXXX$"
+                           Grid.Row="9"
+                           Grid.Column="1"
+                           Foreground="White"
+                           FontSize="25"
+                           FontFamily="montserrat"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Left"/>
+
+                        <CheckBox Name="visita"
+                          Grid.Row="9"
+                          Grid.Column="1"
+                          VerticalAlignment="Center"
+                          HorizontalAlignment="Left" 
+                          RenderTransformOrigin="0.5,0.5" Margin="232,0,0,0">
+
+                            <CheckBox.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </CheckBox.RenderTransform>
+
+                            <CheckBox.Template>
+                                <ControlTemplate TargetType="CheckBox">
+                                    <Border Width="20" Height="20"
+                                        CornerRadius="10"
+                                        Background="{TemplateBinding Background}"
+                                BorderThickness="3">
+
+                                        <Border.BorderBrush>
+                                            <LinearGradientBrush StartPoint="1,1" EndPoint="0,0">
+                                                <GradientStop Color="#462AD8" Offset="0" />
+                                                <GradientStop Color="#ed742f" Offset="1" />
+                                            </LinearGradientBrush>
+                                        </Border.BorderBrush>
+                                    </Border>
+                                </ControlTemplate>
+                            </CheckBox.Template>
+                        </CheckBox>
+
                         <Button x:Name="btnGuardarDatos"
-                            Content="Agregar datos"
+                            Content="Aceptar"
                             BorderThickness="0"
                             Foreground="White"
                             FontSize="20"
                             FontFamily="Monstserrat"
                             Cursor="Hand"
                             Grid.Column="1"
-                            Grid.Row="8"
+                            Grid.Row="10"
                             VerticalAlignment="Center"
                             HorizontalAlignment="Center"
                             Click="btnPagarAhora" 
@@ -304,7 +486,7 @@
 
                 </Grid>
 
-                <Grid Background="#351E99" Grid.Row="2">
+                <Grid Background="#351E99" Grid.Row="2" Grid.ColumnSpan="2">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="30"/>
                         <RowDefinition Height="30"/>

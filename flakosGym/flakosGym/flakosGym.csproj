@@ -142,5 +142,6 @@
   <ItemGroup>
     <Content Include="Images\home.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -54,8 +54,8 @@ namespace flakosGym.Views
             if (BtnShowPassword.Content is Image image)
             {
                 image.Opacity = 1.0;
-                // Opcionalmente, cambia la imagen si deseas mostrar un ojo tachado
-                // image.Source = new BitmapImage(new Uri("/Images/eye-slash.png", UriKind.Relative));
+                // Cambiar la imagen a "closed-eye.png"
+                image.Source = new BitmapImage(new Uri("/Images/closed-eye.png"));
             }
         }
 
@@ -69,10 +69,11 @@ namespace flakosGym.Views
             if (BtnShowPassword.Content is Image image)
             {
                 image.Opacity = 0.5;
-                // Opcionalmente, cambia la imagen para mostrar un ojo
-                // image.Source = new BitmapImage(new Uri("/Images/eye.png", UriKind.Relative));
+                // Cambiar la imagen de vuelta a "eye.png"
+                image.Source = new BitmapImage(new Uri("/Images/eye.png"));
             }
         }
+
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {

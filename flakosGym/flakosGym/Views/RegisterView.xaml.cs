@@ -1,8 +1,9 @@
 using System.Windows;
+using System.Windows.Controls;
 
 namespace flakosGym.Views
 {
-    public partial class RegisterView : Window
+    public partial class RegisterView : Page
     {
         public RegisterView()
         {
