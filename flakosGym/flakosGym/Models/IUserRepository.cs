@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace flakosGym.Models
 {
-    internal interface IUserRepository
+    public interface IUserRepository
     {
         bool AuthenticateUser(NetworkCredential credential);
         void add(UserModel userModel);
@@ -16,6 +16,5 @@ namespace flakosGym.Models
         UserModel GetById(int id);
         UserModel GetByUserName(string username);
         IEnumerable<UserModel> GetAll();
-        object GetByUsername(string name);
     }
 }

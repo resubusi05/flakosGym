@@ -1,11 +1,22 @@
 using System.Data.SqlClient;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Shapes;
+
 
 namespace flakosGym.Views
 {
-    public partial class RegisterView : Page
+    public partial class RegisterView : Window
     {
         public RegisterView()
         {
@@ -67,8 +78,10 @@ namespace flakosGym.Views
                 // Mostrar mensaje de éxito
                 MessageBox.Show("Cuenta creada exitosamente.", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
 
-                // Redirigir a la página de inicio
-                NavigationService.Navigate(new Home());
+                // Redirigir a la página de inicio (abrir la ventana Home y cerrar la ventana actual)
+                var homeWindow = new Home();  // Crear una nueva instancia de la ventana de inicio
+                homeWindow.Show();            // Mostrar la ventana de inicio
+                this.Close();                 // Cerrar la ventana de registro actual
             }
             catch (Exception ex)
             {

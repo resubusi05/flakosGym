@@ -3,24 +3,80 @@
   "WorkspaceRootPath": "V:\\falkosGym2\\flakosGym\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|v:\\falkosgym2\\flakosgym\\flakosgym\\views\\perfil.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\views\\perfil.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|V:\\falkosGym2\\flakosGym\\flakosgym\\views\\registerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\views\\registerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|V:\\falkosGym2\\flakosGym\\flakosgym\\views\\perfil.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\views\\perfil.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|v:\\falkosgym2\\flakosgym\\flakosgym\\views\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\views\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|V:\\falkosGym2\\flakosGym\\flakosgym\\views\\seleccionarpaquete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\views\\seleccionarpaquete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|V:\\falkosGym2\\flakosGym\\flakosgym\\viewsmodels\\recordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\viewsmodels\\recordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|V:\\falkosGym2\\flakosGym\\flakosgym\\views\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\views\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|V:\\falkosGym2\\flakosGym\\flakosgym\\views\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\views\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|V:\\falkosGym2\\flakosGym\\flakosgym\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|V:\\falkosGym2\\flakosGym\\flakosgym\\views\\registerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\views\\registerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|V:\\falkosGym2\\flakosGym\\flakosgym\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|V:\\falkosGym2\\flakosGym\\flakosgym\\views\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\views\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|V:\\falkosGym2\\flakosGym\\flakosgym\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|V:\\falkosGym2\\flakosGym\\flakosgym\\models\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\models\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|V:\\falkosGym2\\flakosGym\\flakosgym\\viewsmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\viewsmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|V:\\falkosGym2\\flakosGym\\flakosgym\\viewsmodels\\viewmodelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\viewsmodels\\viewmodelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|V:\\falkosGym2\\flakosGym\\flakosgym\\views\\paquete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\views\\paquete.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|V:\\falkosGym2\\flakosGym\\flakosgym\\views\\seleccionarpaquete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\views\\seleccionarpaquete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|V:\\falkosGym2\\flakosGym\\flakosgym\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|V:\\falkosGym2\\flakosGym\\flakosgym\\views\\paquete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\views\\paquete.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|V:\\falkosGym2\\flakosGym\\flakosgym\\views\\perfil.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\views\\perfil.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|V:\\falkosGym2\\flakosGym\\flakosgym\\views\\datosinicialesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\views\\datosinicialesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|V:\\falkosGym2\\flakosGym\\flakosgym\\views\\datosinicialesview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEF0C53B-E5D2-4593-AE8B-9926F66318D4}|flakosGym\\flakosGym.csproj|solutionrelative:flakosgym\\views\\datosinicialesview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +98,185 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RecordViewModel.cs",
+              "DocumentMoniker": "V:\\falkosGym2\\flakosGym\\flakosGym\\ViewsModels\\RecordViewModel.cs",
+              "RelativeDocumentMoniker": "flakosGym\\ViewsModels\\RecordViewModel.cs",
+              "ToolTip": "V:\\falkosGym2\\flakosGym\\flakosGym\\ViewsModels\\RecordViewModel.cs",
+              "RelativeToolTip": "flakosGym\\ViewsModels\\RecordViewModel.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAIAywEwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T13:20:52.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.xaml",
+              "DocumentMoniker": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\Home.xaml",
+              "RelativeDocumentMoniker": "flakosGym\\Views\\Home.xaml",
+              "ToolTip": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\Home.xaml",
+              "RelativeToolTip": "flakosGym\\Views\\Home.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-28T13:18:13.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "V:\\falkosGym2\\flakosGym\\flakosGym\\ViewsModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "flakosGym\\ViewsModels\\LoginViewModel.cs",
+              "ToolTip": "V:\\falkosGym2\\flakosGym\\flakosGym\\ViewsModels\\LoginViewModel.cs",
+              "RelativeToolTip": "flakosGym\\ViewsModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T12:48:13.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Home.xaml.cs",
+              "DocumentMoniker": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\Home.xaml.cs",
+              "RelativeDocumentMoniker": "flakosGym\\Views\\Home.xaml.cs",
+              "ToolTip": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\Home.xaml.cs",
+              "RelativeToolTip": "flakosGym\\Views\\Home.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T12:39:02.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SeleccionarPaquete.xaml.cs",
+              "DocumentMoniker": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\SeleccionarPaquete.xaml.cs",
+              "RelativeDocumentMoniker": "flakosGym\\Views\\SeleccionarPaquete.xaml.cs",
+              "ToolTip": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\SeleccionarPaquete.xaml.cs",
+              "RelativeToolTip": "flakosGym\\Views\\SeleccionarPaquete.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T12:36:36.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ViewModelCommand.cs",
+              "DocumentMoniker": "V:\\falkosGym2\\flakosGym\\flakosGym\\ViewsModels\\ViewModelCommand.cs",
+              "RelativeDocumentMoniker": "flakosGym\\ViewsModels\\ViewModelCommand.cs",
+              "ToolTip": "V:\\falkosGym2\\flakosGym\\flakosGym\\ViewsModels\\ViewModelCommand.cs",
+              "RelativeToolTip": "flakosGym\\ViewsModels\\ViewModelCommand.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T12:30:43.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "V:\\falkosGym2\\flakosGym\\flakosGym\\Models\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "flakosGym\\Models\\IUserRepository.cs",
+              "ToolTip": "V:\\falkosGym2\\flakosGym\\flakosGym\\Models\\IUserRepository.cs",
+              "RelativeToolTip": "flakosGym\\Models\\IUserRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T12:22:04.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "V:\\falkosGym2\\flakosGym\\flakosGym\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "flakosGym\\Repositories\\UserRepository.cs",
+              "ToolTip": "V:\\falkosGym2\\flakosGym\\flakosGym\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "flakosGym\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T12:18:36.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Paquete.xaml.cs",
+              "DocumentMoniker": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\Paquete.xaml.cs",
+              "RelativeDocumentMoniker": "flakosGym\\Views\\Paquete.xaml.cs",
+              "ToolTip": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\Paquete.xaml.cs",
+              "RelativeToolTip": "flakosGym\\Views\\Paquete.xaml.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T12:18:26.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Paquete.xaml",
+              "DocumentMoniker": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\Paquete.xaml",
+              "RelativeDocumentMoniker": "flakosGym\\Views\\Paquete.xaml",
+              "ToolTip": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\Paquete.xaml",
+              "RelativeToolTip": "flakosGym\\Views\\Paquete.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-28T12:18:15.132Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "SeleccionarPaquete.xaml",
+              "DocumentMoniker": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\SeleccionarPaquete.xaml",
+              "RelativeDocumentMoniker": "flakosGym\\Views\\SeleccionarPaquete.xaml",
+              "ToolTip": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\SeleccionarPaquete.xaml",
+              "RelativeToolTip": "flakosGym\\Views\\SeleccionarPaquete.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-28T12:16:23.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "V:\\falkosGym2\\flakosGym\\flakosGym\\App.xaml.cs",
+              "RelativeDocumentMoniker": "flakosGym\\App.xaml.cs",
+              "ToolTip": "V:\\falkosGym2\\flakosGym\\flakosGym\\App.xaml.cs",
+              "RelativeToolTip": "flakosGym\\App.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T12:16:17.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterView.xaml.cs",
+              "DocumentMoniker": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\RegisterView.xaml.cs",
+              "RelativeDocumentMoniker": "flakosGym\\Views\\RegisterView.xaml.cs",
+              "ToolTip": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\RegisterView.xaml.cs",
+              "RelativeToolTip": "flakosGym\\Views\\RegisterView.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T12:08:09.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterView.xaml",
+              "DocumentMoniker": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\RegisterView.xaml",
+              "RelativeDocumentMoniker": "flakosGym\\Views\\RegisterView.xaml",
+              "ToolTip": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\RegisterView.xaml",
+              "RelativeToolTip": "flakosGym\\Views\\RegisterView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-28T12:08:06.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\Login.xaml",
+              "RelativeDocumentMoniker": "flakosGym\\Views\\Login.xaml",
+              "ToolTip": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\Login.xaml",
+              "RelativeToolTip": "flakosGym\\Views\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-28T10:47:10.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Login.xaml.cs",
               "DocumentMoniker": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\Login.xaml.cs",
               "RelativeDocumentMoniker": "flakosGym\\Views\\Login.xaml.cs",
@@ -50,56 +284,41 @@
               "RelativeToolTip": "flakosGym\\Views\\Login.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T10:37:09.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T10:37:09.792Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Perfil.xaml.cs",
-              "DocumentMoniker": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\Perfil.xaml.cs",
-              "RelativeDocumentMoniker": "flakosGym\\Views\\Perfil.xaml.cs",
-              "ToolTip": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\Perfil.xaml.cs",
-              "RelativeToolTip": "flakosGym\\Views\\Perfil.xaml.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAwBoAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "DatosInicialesView.xaml",
+              "DocumentMoniker": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\DatosInicialesView.xaml",
+              "RelativeDocumentMoniker": "flakosGym\\Views\\DatosInicialesView.xaml",
+              "ToolTip": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\DatosInicialesView.xaml",
+              "RelativeToolTip": "flakosGym\\Views\\DatosInicialesView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-28T10:46:32.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DatosInicialesView.xaml.cs",
+              "DocumentMoniker": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\DatosInicialesView.xaml.cs",
+              "RelativeDocumentMoniker": "flakosGym\\Views\\DatosInicialesView.xaml.cs",
+              "ToolTip": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\DatosInicialesView.xaml.cs",
+              "RelativeToolTip": "flakosGym\\Views\\DatosInicialesView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T10:36:13.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T10:46:53.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 16,
               "Title": "Perfil.xaml",
               "DocumentMoniker": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\Perfil.xaml",
               "RelativeDocumentMoniker": "flakosGym\\Views\\Perfil.xaml",
               "ToolTip": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\Perfil.xaml",
               "RelativeToolTip": "flakosGym\\Views\\Perfil.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-28T00:52:45.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterView.xaml.cs",
-              "DocumentMoniker": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\RegisterView.xaml.cs",
-              "RelativeDocumentMoniker": "flakosGym\\Views\\RegisterView.xaml.cs",
-              "ToolTip": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\RegisterView.xaml.cs",
-              "RelativeToolTip": "flakosGym\\Views\\RegisterView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T10:12:39.35Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegisterView.xaml",
-              "DocumentMoniker": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\RegisterView.xaml",
-              "RelativeDocumentMoniker": "flakosGym\\Views\\RegisterView.xaml",
-              "ToolTip": "V:\\falkosGym2\\flakosGym\\flakosGym\\Views\\RegisterView.xaml",
-              "RelativeToolTip": "flakosGym\\Views\\RegisterView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-28T10:12:00.148Z"
+              "WhenOpened": "2024-11-28T00:52:45.56Z"
             }
           ]
         }

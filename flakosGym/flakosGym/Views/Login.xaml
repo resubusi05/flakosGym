@@ -16,7 +16,7 @@
 
     <!-- Estableciendo el contexto de datos -->
     <Window.DataContext>
-        <viewModel:LoginViewModel />
+        <viewModel:LoginViewModel/>
     </Window.DataContext>
 
     <!-- Recursos -->
@@ -150,8 +150,162 @@
                         <RowDefinition Height="100" />
                     </Grid.RowDefinitions>
 
-                    <!-- Campos de entrada y botones -->
-                    <!-- Aquí continúa tu diseño -->
+                    <TextBlock x:Name="NombreUsuarioTextBox"
+                        Text="Nombre de usuario"
+                               Foreground="DarkGray"
+                               FontSize="25"
+                               FontFamily="Montserrat"
+                               Grid.Column="0"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Right"
+                               Grid.Row="1"
+                               Margin="10,0,0,0"/>
+
+                    <Grid Grid.Row="1" Grid.Column="1" Margin="100,0,100,0">
+                        <Border BorderBrush="DarkGray" 
+                            BorderThickness="2" 
+                            CornerRadius="10" 
+                            VerticalAlignment="Center" 
+                            HorizontalAlignment="Stretch">
+
+                            <TextBox Text=""
+                                     Background="Transparent"
+                                     Foreground="DarkGray"
+                                     FontSize="20"
+                                     FontFamily="Montserrat"
+                                     VerticalAlignment="Center"
+                                     BorderThickness="0"/>
+                        </Border>
+                    </Grid>
+
+                    <TextBlock Text="Contraseña"
+                               Foreground="DarkGray"
+                               FontSize="25"
+                               FontFamily="Montserrat"
+                               Grid.Column="0"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Right"
+                               Grid.Row="2"
+                               Margin="10,0,0,0"/>
+
+                    <Grid Grid.Row="2" Grid.Column="1" Margin="100,0,100,0">
+                        <Border BorderBrush="DarkGray" 
+                                BorderThickness="2" 
+                                CornerRadius="10" 
+                                VerticalAlignment="Center" 
+                                HorizontalAlignment="Stretch">
+
+                            <PasswordBox x:Name="PasswordBox"
+                                         Foreground="DarkGray" 
+                                         FontSize="20" 
+                                         FontFamily="Montserrat" 
+                                         VerticalAlignment="Center"
+                                         PasswordChar="●"
+                                         Background="Transparent" 
+                                         BorderThickness="0"
+                                         PasswordChanged="PasswordBox_PasswordChanged"/>
+                        </Border>
+
+                        <TextBox x:Name="TextBoxPassword"
+                                 BorderBrush="DarkGray" 
+                                 Foreground="DarkGray" 
+                                 FontSize="20" 
+                                 FontFamily="Montserrat" 
+                                 VerticalAlignment="Center" 
+                                 Background="Transparent"
+                                 Visibility="Collapsed"/>
+
+                        <ToggleButton x:Name="BtnShowPassword"
+                                      Width="25" Height="25"
+                                      Margin="5,0,0,0"
+                                      HorizontalAlignment="Right"
+                                      VerticalAlignment="Center"
+                                      Checked="BtnShowPassword_Checked"
+                                      Unchecked="BtnShowPassword_Unchecked">
+                            <ToggleButton.Content>
+                                <Image Source="/Images/eye.png"
+                                       Width="20" Height="20"
+                                       Opacity="0.5"/>
+                            </ToggleButton.Content>
+                        </ToggleButton>
+                    </Grid>
+
+                    <Button x:Name="BtnIniciarSesion"
+                            BorderThickness="0"
+                            Content="Iniciar Sesion"
+                            Foreground="White"
+                            FontSize="20"
+                            FontFamily="Monstserrat"
+                            Cursor="Hand"
+                            Grid.Column="1"
+                            Grid.Row="3"
+                            Click="BtnIniciarSesion_OnClick">
+
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#ed742f" />
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#b75014"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="175" Height="25"
+                                        CornerRadius="10"
+                                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+
+                    <TextBlock x:Name="ErrorMessage"
+                               Text=""
+                               Grid.Row="3"
+                               Grid.Column="2"
+                               FontSize="20"
+                               TextAlignment="Center"
+                               Foreground="MediumVioletRed"/>
+
+                    <Button x:Name="BtnCrearCuenta"
+                            BorderThickness="0"
+                            Content="Crear cuenta"
+                            Foreground="White"
+                            FontSize="20"
+                            FontFamily="Monstserrat"
+                            Cursor="Hand"
+                            Grid.Column="1"
+                            Grid.Row="4"
+                            VerticalAlignment="Bottom"
+                            Click="BtnIniciarSesion_OnClick">
+
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#ed742f" />
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#b75014"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="175" Height="25"
+                                    CornerRadius="10"
+                                    Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                  HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
                 </Grid>
             </Grid>
         </Border>

@@ -1,4 +1,4 @@
-<Page x:Class="flakosGym.Views.DatosInicialesView"
+<Window x:Class="flakosGym.Views.DatosInicialesView"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
@@ -283,7 +283,7 @@
                     </Button>
                 </Grid>
                 
-                <Grid Background="#351E99" Grid.Row="3">
+                <Grid Background="#351E99" Grid.Row="2" Margin="0,20,0,24" Grid.RowSpan="2">
                     
                     <Grid.RowDefinitions>
                         <RowDefinition Height="30"/>
@@ -346,4 +346,4 @@
             </Grid>
         </Border>
     </Border>
-</Page>
+</Window>

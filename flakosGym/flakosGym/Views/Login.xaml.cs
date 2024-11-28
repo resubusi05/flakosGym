@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+using System.Data.SqlClient;
+
 namespace flakosGym.Views
 {
     /// <summary>
@@ -24,15 +26,6 @@ namespace flakosGym.Views
             InitializeComponent();
         }
 
-        private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
-        {
-            if (TextBoxPassword != null && PasswordBox != null &&
-                TextBoxPassword.Visibility == Visibility.Visible)
-            {
-                TextBoxPassword.Text = PasswordBox.Password;
-            }
-        }
-
         private void BtnClose_OnClick(object sender, RoutedEventArgs e)
         {
             Close();
@@ -42,6 +35,15 @@ namespace flakosGym.Views
         {
             Window ownerWindow = Window.GetWindow(this);
             ownerWindow.WindowState = WindowState.Minimized;
+        }
+
+        private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
+        {
+            if (TextBoxPassword != null && PasswordBox != null &&
+                TextBoxPassword.Visibility == Visibility.Visible)
+            {
+                TextBoxPassword.Text = PasswordBox.Password;
+            }
         }
 
         private void BtnShowPassword_Checked(object sender, RoutedEventArgs e)
@@ -81,7 +83,39 @@ namespace flakosGym.Views
 
         private void BtnIniciarSesion_OnClick(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            string connectionString = "Data Source=RESUBUSI05\\VSGESTION;Initial Catalog=FlakosGym;Integrated Security=True;";
+            string query = "SELECT COUNT(*) FROM User WHERE Username = @Username AND Password = @Password";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    connection.Open();
+
+                    SqlCommand command = new SqlCommand(query, connection);
+                    command.Parameters.AddWithValue("@Username", NombreUsuarioTextBox.Text);
+                    command.Parameters.AddWithValue("@Password", PasswordBox.Password);
+
+                    int count = (int)command.ExecuteScalar();
+
+                    if (count > 0)
+                    {
+                        MessageBox.Show("Inicio de sesión exitoso.", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
+                        // Aquí puedes redirigir a la siguiente ventana
+                        MainWindow mainWindow = new MainWindow();
+                        mainWindow.Show();
+                        Close();
+                    }
+                    else
+                    {
+                        ErrorMessage.Text = "Usuario o contraseña incorrectos.";
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error al conectar con la base de datos: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
         }
 
         private void hipervinculoCrearCuenta(object sender, RoutedEventArgs e)
