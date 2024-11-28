@@ -25,8 +25,9 @@
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="30"/>
-                    <RowDefinition Height="390"/>
-                    <RowDefinition Height="70"/>
+                    <RowDefinition Height="377"/>
+                    <RowDefinition Height="4.54"/>
+                    <RowDefinition Height="78.46"/>
                 </Grid.RowDefinitions>
 
                 <Grid Grid.Row="0">
@@ -114,16 +115,36 @@
 
                 <Grid Grid.Row="1">
                     <Grid.ColumnDefinitions>
-                        
+                        <ColumnDefinition Width="200"/>
+                        <ColumnDefinition Width="400"/>
+                        <ColumnDefinition Width="200"/>
                     </Grid.ColumnDefinitions>
 
                     <Grid.RowDefinitions>
-
+                        <RowDefinition Height="125"/>
+                        <RowDefinition Height="125"/>
+                        <RowDefinition Height="125"/>
                     </Grid.RowDefinitions>
+
+                    <TextBlock Text="¡Hola!"
+                       Foreground="White"
+                       FontSize="25"
+                       FontFamily="monstserrat"
+                       Grid.Column="1"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"/>
+
+                    <TextBlock Text="Tu rutina de hoy"
+                       Foreground="White"
+                       FontSize="25"
+                       FontFamily="monstserrat"
+                       Grid.Column="1"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"/>
 
                 </Grid>
 
-                <Grid Background="#351E99" Grid.Row="3">
+                <Grid Background="#351E99" Grid.Row="2" Grid.RowSpan="2" Margin="0,0,0,10">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="30"/>
                         <RowDefinition Height="30"/>

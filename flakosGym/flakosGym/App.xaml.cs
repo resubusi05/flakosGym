@@ -6,10 +6,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 using flakosGym.Views;
-//using Microsoft.UI.Xaml.Controls;
-//using Microsoft.UI.Xaml.Navigation;
-using System;
-//using WindowsHelloLogin.Views;
 
 namespace flakosGym
 {

@@ -89,8 +89,8 @@
     <Compile Include="Views\Paquete.xaml.cs">
       <DependentUpon>Paquete.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\RegisterView.xaml.cs">
-      <DependentUpon>RegisterView.xaml</DependentUpon>
+    <Compile Include="Views\Register.xaml.cs">
+      <DependentUpon>Register.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Perfil.xaml.cs">
       <DependentUpon>Perfil.xaml</DependentUpon>
@@ -128,7 +128,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\RegisterView.xaml" />
+    <Page Include="Views\Register.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Views\Perfil.xaml" />
     <Page Include="Views\SeleccionarPaquete.xaml">
       <SubType>Designer</SubType>

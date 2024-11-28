@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 V:\falkosGym2\flakosGym\flakosGym\App.xaml
-10-651267912
+101076652065
 1553061478
-24-409863629
+24-666638730
 15-908582745
-MainWindow.xaml;Views\DatosInicialesView.xaml;Views\Home.xaml;Views\Login.xaml;Views\Objetivo.xaml;Views\MainPage.xaml;Views\Paquete.xaml;Views\RegisterView.xaml;Views\Perfil.xaml;Views\SeleccionarPaquete.xaml;
+MainWindow.xaml;Views\DatosInicialesView.xaml;Views\Home.xaml;Views\Login.xaml;Views\Objetivo.xaml;Views\MainPage.xaml;Views\Paquete.xaml;Views\Register.xaml;Views\Perfil.xaml;Views\SeleccionarPaquete.xaml;
 
 True
 

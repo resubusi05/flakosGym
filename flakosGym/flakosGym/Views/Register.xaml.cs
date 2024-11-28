@@ -17,12 +17,12 @@ using flakosGym.Models;
 
 namespace flakosGym.Views
 {
-    public partial class RegisterView : Window
+    public partial class Register : Window
     {
 
         private readonly string _connectionString;
 
-        public RegisterView()
+        public Register()
         {
             InitializeComponent();
         }
@@ -38,7 +38,7 @@ namespace flakosGym.Views
         }
 
 
-        private void BtnGuardarDatosDeCuenta(object sender, RoutedEventArgs e)
+        private void CrearCuenta(object sender, RoutedEventArgs e)
         {
             // Validar los campos de entrada
             string nombre = TextBoxNombre.Text.Trim();

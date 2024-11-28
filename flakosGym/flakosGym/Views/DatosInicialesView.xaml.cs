@@ -1,67 +1,57 @@
-using flakosGym.Models;
-using flakosGym.Repositories;
-using System.Windows;
-using System.Xml.Linq;
 using System;
+using System.Windows;
+using System.Windows.Controls;
 
 namespace flakosGym.Views
 {
     public partial class DatosInicialesView : Window
     {
-        private readonly IUserRepository _userRepository;
-
         public DatosInicialesView()
         {
             InitializeComponent();
-            _userRepository = new UserRepository();
         }
 
         private void btnGuardarDatos_OnClick(object sender, RoutedEventArgs e)
         {
             try
             {
-                // Obtén los datos desde los controles del formulario
-                string username = Username.Text;
-                string password = txtPassword.Password;
-                string name = txtName.Text;
-                string lastName = txtLastName.Text;
-                string email = txtEmail.Text;
-                string objetivo = txtObjective.Text;
-                DateTime birthDate = dpBirthDate.SelectedDate ?? DateTime.MinValue;
-                string gender = cbGender.SelectedItem?.ToString();
-                string phone = txtPhone.Text;
+                // Obtener los valores ingresados por el usuario
+                ComboBox comboBoxGenero = (ComboBox)FindName("ComboBoxGenero");
+                TextBox textBoxEdad = (TextBox)FindName("TextBoxEdad");
+                TextBox textBoxTelefono = (TextBox)FindName("TextBoxTelefono");
+                TextBox textBoxPeso = (TextBox)FindName("TextBoxPeso");
 
-                // Validaciones (opcional)
-                if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
+                string genero = (comboBoxGenero.SelectedItem as ComboBoxItem)?.Content.ToString() ?? "";
+                string edad = textBoxEdad?.Text.Trim() ?? "";
+                string numeroTelefono = textBoxTelefono?.Text.Trim() ?? "";
+                string peso = textBoxPeso?.Text.Trim() ?? "";
+
+                // Validar los datos
+                if (string.IsNullOrEmpty(genero) || string.IsNullOrEmpty(edad) || string.IsNullOrEmpty(numeroTelefono) || string.IsNullOrEmpty(peso))
                 {
-                    MessageBox.Show("Por favor, complete todos los campos obligatorios.");
+                    MessageBox.Show("Por favor, completa todos los campos.", "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
 
-                // Crea el modelo de usuario
-                var newUser = new UserModel
+                if (!int.TryParse(edad, out int edadNumerica))
                 {
-                    Username = username,
-                    Password = password,
-                    Name = name,
-                    LastName = lastName,
-                    Email = email,
-                    Obejetivo = objetivo,
-                    FechaDeNacimiento = birthDate.ToString("yyyy-MM-dd"),
-                    Genero = gender,
-                    Telefono = phone
-                };
+                    MessageBox.Show("La edad debe ser un número válido.", "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
 
-                // Guarda el usuario en la base de datos
-                _userRepository.add(newUser);
+                if (!decimal.TryParse(peso, out decimal pesoDecimal))
+                {
+                    MessageBox.Show("El peso debe ser un número válido.", "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
 
-                // Mensaje de éxito
-                MessageBox.Show("Usuario guardado exitosamente.");
+                // Guardar los datos (puedes reemplazar esto con la lógica para guardar en la base de datos)
+                MessageBox.Show($"Datos guardados:\nGénero: {genero}\nEdad: {edadNumerica}\nTeléfono: {numeroTelefono}\nPeso: {pesoDecimal} kg",
+                                "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             catch (Exception ex)
             {
-                // Manejo de errores
-                MessageBox.Show($"Error al guardar usuario: {ex.Message}");
+                MessageBox.Show($"Ocurrió un error al guardar los datos: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
     }
