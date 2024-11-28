@@ -335,7 +335,7 @@
                         </Border>
                     </Grid>
 
-                    <Button Name="BtnCrearCuenta"
+                    <Button Name="BtnGuardarDatosDeCuenta"
                             BorderThickness="0"
                             Content="Crear cuenta"
                             Foreground="White"
@@ -344,7 +344,7 @@
                             Cursor="Hand"
                             Grid.Column="1"
                             Grid.Row="7"
-                            Click="BtnCrearCuenta">
+                            Click="BtnGuardarDatosDeCuenta">
 
                         <Button.Style>
                             <Style TargetType="Button">

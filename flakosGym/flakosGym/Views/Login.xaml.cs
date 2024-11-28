@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
 using System.Data.SqlClient;
+using System.Net;
+using flakosGym.Models;
 
 namespace flakosGym.Views
 {
@@ -21,6 +23,9 @@ namespace flakosGym.Views
     /// </summary
     public partial class Login : Window
     {
+
+        private readonly IUserRepository _userRepository;
+
         public Login()
         {
             InitializeComponent();
@@ -83,38 +88,29 @@ namespace flakosGym.Views
 
         private void BtnIniciarSesion_OnClick(object sender, RoutedEventArgs e)
         {
-            string connectionString = "Data Source=RESUBUSI05\\VSGESTION;Initial Catalog=FlakosGym;Integrated Security=True;";
-            string query = "SELECT COUNT(*) FROM User WHERE Username = @Username AND Password = @Password";
-
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            try
             {
-                try
+                // Crear credenciales
+                var credential = new NetworkCredential(NombreUsuarioTextBox.Text, PasswordBox.Password);
+
+                // Llamar al repositorio para autenticar
+                bool isAuthenticated = _userRepository.AuthenticateUser(credential);
+
+                if (isAuthenticated)
                 {
-                    connection.Open();
-
-                    SqlCommand command = new SqlCommand(query, connection);
-                    command.Parameters.AddWithValue("@Username", NombreUsuarioTextBox.Text);
-                    command.Parameters.AddWithValue("@Password", PasswordBox.Password);
-
-                    int count = (int)command.ExecuteScalar();
-
-                    if (count > 0)
-                    {
-                        MessageBox.Show("Inicio de sesión exitoso.", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
-                        // Aquí puedes redirigir a la siguiente ventana
-                        MainWindow mainWindow = new MainWindow();
-                        mainWindow.Show();
-                        Close();
-                    }
-                    else
-                    {
-                        ErrorMessage.Text = "Usuario o contraseña incorrectos.";
-                    }
+                    MessageBox.Show("Inicio de sesión exitoso.", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
+                    MainWindow mainWindow = new MainWindow();
+                    mainWindow.Show();
+                    Close();
                 }
-                catch (Exception ex)
+                else
                 {
-                    MessageBox.Show($"Error al conectar con la base de datos: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    ErrorMessage.Text = "Usuario o contraseña incorrectos.";
                 }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al conectar con la base de datos: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 

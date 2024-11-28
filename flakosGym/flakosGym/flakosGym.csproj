@@ -67,10 +67,10 @@
     <Compile Include="Models\UserModel.cs" />
     <Compile Include="Repositories\RepositoryBase.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
-    <Compile Include="ViewsModels\LoginViewModel.cs" />
-    <Compile Include="ViewsModels\RecordViewModel.cs" />
-    <Compile Include="ViewsModels\ViewModelBase.cs" />
-    <Compile Include="ViewsModels\ViewModelCommand.cs" />
+    <Compile Include="ViewModels\LoginViewModel.cs" />
+    <Compile Include="ViewModels\RecordViewModel.cs" />
+    <Compile Include="ViewModels\ViewModelBase.cs" />
+    <Compile Include="ViewModels\ViewModelCommand.cs" />
     <Compile Include="Views\DatosInicialesView.xaml.cs">
       <DependentUpon>DatosInicialesView.xaml</DependentUpon>
     </Compile>
