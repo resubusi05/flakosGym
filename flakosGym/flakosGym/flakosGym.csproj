@@ -36,6 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
@@ -56,8 +57,25 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="FlakosGymDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FlakosGymDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Models\IUserRepository.cs" />
+    <Compile Include="Models\UserAccountModel.cs" />
+    <Compile Include="Models\UserModel.cs" />
+    <Compile Include="Repositories\RepositoryBase.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
+    <Compile Include="ViewsModels\LoginViewModel.cs" />
+    <Compile Include="ViewsModels\RecordViewModel.cs" />
+    <Compile Include="ViewsModels\ViewModelBase.cs" />
+    <Compile Include="ViewsModels\ViewModelCommand.cs" />
     <Compile Include="Views\DatosInicialesView.xaml.cs">
       <DependentUpon>DatosInicialesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Home.xaml.cs">
+      <DependentUpon>Home.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
@@ -93,6 +111,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Views\DatosInicialesView.xaml" />
+    <Page Include="Views\Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Login.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -131,6 +153,17 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="FlakosGymDataSet.xsc">
+      <DependentUpon>FlakosGymDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FlakosGymDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FlakosGymDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FlakosGymDataSet.xss">
+      <DependentUpon>FlakosGymDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -147,7 +147,7 @@
                        Height="80"
                        Opacity="1"/>
 
-                    <TextBlock Text="Nombre completo"
+                    <TextBlock Text="Nombre"
                                Foreground="DarkGray"
                                FontSize="25"
                                FontFamily="Montserrat"
@@ -164,13 +164,70 @@
                                 VerticalAlignment="Center" 
                                 HorizontalAlignment="Stretch">
 
-                            <TextBox Text=""
+                            <TextBox x:Name="TextBoxNombre"
+                                     Text=""
                                      Background="Transparent"
                                      Foreground="DarkGray"
                                      FontSize="20"
                                      FontFamily="Montserrat"
                                      VerticalAlignment="Center"
                                      BorderThickness="0"/>
+                        </Border>
+                    </Grid>
+                    
+                    <TextBlock Text="Apellido"
+                       Foreground="DarkGray"
+                       FontSize="25"
+                       FontFamily="Montserrat"
+                       Grid.Column="0"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Right"
+                       Grid.Row="2"
+                       Margin="10,0,0,0"/>
+
+                    <Grid Grid.Row="2" Grid.Column="1" Margin="100,0,100,0">
+                        <Border BorderBrush="DarkGray" 
+                            BorderThickness="2" 
+                            CornerRadius="10" 
+                            VerticalAlignment="Center" 
+                            HorizontalAlignment="Stretch">
+
+                            <TextBox x:Name="TextBoxApellido"
+                                Text=""
+                                 Background="Transparent"
+                                 Foreground="DarkGray"
+                                 FontSize="20"
+                                 FontFamily="Montserrat"
+                                 VerticalAlignment="Center"
+                                 BorderThickness="0"/>
+                        </Border>
+                    </Grid>
+
+                    <TextBlock Text="Username"
+                       Foreground="DarkGray"
+                       FontSize="25"
+                       FontFamily="Montserrat"
+                       Grid.Column="0"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Right"
+                       Grid.Row="3"
+                       Margin="10,0,0,0"/>
+
+                    <Grid Grid.Row="3" Grid.Column="1" Margin="100,0,100,0">
+                        <Border BorderBrush="DarkGray" 
+                            BorderThickness="2" 
+                            CornerRadius="10" 
+                            VerticalAlignment="Center" 
+                            HorizontalAlignment="Stretch">
+
+                            <TextBox x:Name="TextBoxUserName"
+                                Text=""
+                                 Background="Transparent"
+                                 Foreground="DarkGray"
+                                 FontSize="20"
+                                 FontFamily="Montserrat"
+                                 VerticalAlignment="Center"
+                                 BorderThickness="0"/>
                         </Border>
                     </Grid>
 
@@ -181,17 +238,18 @@
                                Grid.Column="0"
                                VerticalAlignment="Center"
                                HorizontalAlignment="Right"
-                               Grid.Row="2"
+                               Grid.Row="4"
                                Margin="10,0,0,0"/>
 
-                    <Grid Grid.Row="2" Grid.Column="1" Margin="100,0,100,0">
+                    <Grid Grid.Row="4" Grid.Column="1" Margin="100,0,100,0">
                         <Border BorderBrush="DarkGray" 
                                 BorderThickness="2" 
                                 CornerRadius="10" 
                                 VerticalAlignment="Center" 
                                 HorizontalAlignment="Stretch">
 
-                            <TextBox Text=""
+                            <TextBox x:Name="TextBoxEmail"
+                                Text=""
                                      Background="Transparent"
                                      Foreground="DarkGray"
                                      FontSize="20"
@@ -208,9 +266,9 @@
                                Grid.Column="0"
                                VerticalAlignment="Top"
                                HorizontalAlignment="Right"
-                               Grid.Row="3"/>
+                               Grid.Row="5"/>
 
-                    <Grid Grid.Row="3" Grid.Column="1" Margin="100,0,100,0">
+                    <Grid Grid.Row="5" Grid.Column="1" Margin="100,0,100,0">
                         <Border BorderBrush="DarkGray" 
                                 BorderThickness="2" 
                                 CornerRadius="10" 
@@ -245,11 +303,7 @@
                                       Background="Transparent"
                                       BorderThickness="0"
                                       Checked="BtnShowPassword_Checked"
-                                      Unchecked="BtnShowPassword_Unchecked">
-                            <ToggleButton.Content>
-                                <Image Source="/Images/eye.png" Width="20" Height="20" Opacity="1"/>
-                            </ToggleButton.Content>
-                        </ToggleButton>
+                                      Unchecked="BtnShowPassword_Unchecked"/>
                     </Grid>
 
                     <TextBlock Text="Confirmar&#x0a;contraseña"
@@ -259,10 +313,10 @@
                                Grid.Column="0"
                                VerticalAlignment="Center"
                                HorizontalAlignment="Right"
-                               Grid.Row="4"
+                               Grid.Row="6"
                                Margin="10,0,0,0"/>
 
-                    <Grid Grid.Row="4" Grid.Column="1" Margin="100,0,100,0">
+                    <Grid Grid.Row="6" Grid.Column="1" Margin="100,0,100,0">
                         <Border BorderBrush="DarkGray" 
                                 BorderThickness="2" 
                                 CornerRadius="10" 
@@ -289,8 +343,8 @@
                             FontFamily="Monstserrat"
                             Cursor="Hand"
                             Grid.Column="1"
-                            Grid.Row="6"
-                            Click="BtnCrearCuenta_OnClick">
+                            Grid.Row="7"
+                            Click="BtnCrearCuenta">
 
                         <Button.Style>
                             <Style TargetType="Button">

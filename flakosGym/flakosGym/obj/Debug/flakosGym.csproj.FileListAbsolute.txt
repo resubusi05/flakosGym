@@ -57,3 +57,5 @@ V:\falkosGym2\flakosGym\flakosGym\obj\Debug\flakosGym_MarkupCompile.cache
 V:\falkosGym2\flakosGym\flakosGym\obj\Debug\flakosGym_MarkupCompile.lref
 V:\falkosGym2\flakosGym\flakosGym\obj\Debug\flakosGym.exe
 V:\falkosGym2\flakosGym\flakosGym\obj\Debug\flakosGym.pdb
+V:\falkosGym2\flakosGym\flakosGym\obj\Debug\Views\Home.g.cs
+V:\falkosGym2\flakosGym\flakosGym\obj\Debug\GeneratedInternalTypeHelper.g.cs

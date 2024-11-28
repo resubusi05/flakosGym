@@ -30,20 +30,5 @@ namespace flakosGym
             loginView.Show();  // Asegúrate de mostrar la ventana
         }
         
-        protected override void OnLaunched(Microsoft.UI.Xaml.LaunchActivatedEventArgs args)
-        {
-            m_window = new MainWindow();
-            var rootFrame = new Frame();
-            rootFrame.NavigationFailed += RootFrame_NavigationFailed;
-            rootFrame.Navigate(typeof(MainPage), args);
-            m_window.Content = rootFrame;
-            m_window.Activate();
-        }
-
-        private void RootFrame_NavigationFailed(object sender, NavigationFailedEventArgs e)
-        {
-            throw new Exception($"Error loading page {e.SourcePageType.FullName}");
-        }
-        
     }
 }

@@ -74,7 +74,6 @@ namespace flakosGym.Views
             }
         }
 
-
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
             throw new NotImplementedException();
