@@ -130,7 +130,7 @@
                         <RowDefinition Height="60"/>
                     </Grid.RowDefinitions>
                     
-                    <TextBlock Text="Hi Pedrito Sola"
+                    <TextBlock Text="Hi ¡Pedrito Sola!"
                                Foreground="White"
                                FontSize="25"
                                FontFamily="Montserrat"

@@ -335,7 +335,7 @@
                         </Border>
                     </Grid>
 
-                    <Button x:Name="CrearCuenta"
+                    <Button x:Name="CrearCuentaBtn"
                             BorderThickness="0"
                             Content="Crear cuenta"
                             Foreground="White"

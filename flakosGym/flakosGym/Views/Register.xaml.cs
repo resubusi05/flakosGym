@@ -21,6 +21,7 @@ namespace flakosGym.Views
     {
 
         private readonly string _connectionString;
+        private readonly IUserRepository _userRepository;    
 
         public Register()
         {
